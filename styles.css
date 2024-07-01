@@ -95,7 +95,7 @@ nav ul li a:hover {
 }
 
 /* Mobile styles */
-@media (max-width: 760px) {
+@media (max-width: 600px) {
     .navbar-links {
         display: none;
         width: 100%;
@@ -320,7 +320,7 @@ main {
 
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .menu-toggle {
         display: flex;
     }
@@ -579,7 +579,7 @@ footer {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .services-overview .service,
     .testimonials .testimonial,
     .about .team-member {
