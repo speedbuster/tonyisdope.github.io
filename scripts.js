@@ -1,3 +1,16 @@
+
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+}
+
+function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     // Form validation
     const contactForm = document.getElementById('contactForm');
@@ -16,26 +29,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    const menuToggle = document.getElementById('mobile-menu');
-    const navList = document.querySelector('.nav-list');
+// const menuToggle = document.getElementsByClassName('menu-toggle')[0]
+// const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-    menuToggle.addEventListener('click', function() {
-        menuToggle.classList.toggle('active');
-        navList.classList.toggle('active');
-    });
-});
+// menuToggle.addEventListener('click', () => {
+//     navbarLinks.classList.toggle('active')
+// })
 
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     const ctaButtons = document.querySelectorAll('.cta');
-
-//     ctaButtons.forEach(button => {
-//         button.addEventListener('click', function(event) {
-//             event.preventDefault();
-//             const whatsappNumber = 'YOUR_WHATSAPP_NUMBER';
-//             const message = encodeURIComponent("I'm interested in the Facebook Ads Mastery Course");
-//             window.location.href = `https://wa.me/${whatsappNumber}?text=${message}`;
-//         });
-//     });
-// });
