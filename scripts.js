@@ -29,11 +29,29 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// const menuToggle = document.getElementsByClassName('menu-toggle')[0]
-// const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+function startCountdown(duration) {
+    const timerElement = document.getElementById('time');
+    let timeRemaining = duration;
 
-// menuToggle.addEventListener('click', () => {
-//     navbarLinks.classList.toggle('active')
-// })
+    function updateTimer() {
+        const hours = Math.floor(timeRemaining / 3600);
+        const minutes = Math.floor((timeRemaining % 3600) / 60);
+        const seconds = timeRemaining % 60;
 
+        timerElement.textContent = 
+            `${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        
+        if (timeRemaining > 0) {
+            timeRemaining--;
+        } else {
+            clearInterval(countdownInterval);
+            timerElement.textContent = "Time's up!";
+        }
+    }
 
+    updateTimer();
+    const countdownInterval = setInterval(updateTimer, 1000);
+}
+
+// 24 hours = 86400 seconds
+startCountdown(86400);
