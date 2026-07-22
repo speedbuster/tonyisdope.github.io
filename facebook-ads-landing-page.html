@@ -3,125 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Ads - TIDA Digital Agency</title>
+    <title>Facebook Ads Services | TIDA Digital Agency</title>
     <link rel="canonical" href="https://www.tonyisdope.com.ng/facebook-ads-landing-page.html" />
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-56WBK74P');</script>
-<!-- End Google Tag Manager -->
-
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1431048524757691');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1431048524757691&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script defer src="scripts.js"></script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-56WBK74P');</script>
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1431048524757691');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1431048524757691&ev=PageView&noscript=1"/></noscript>
 </head>
 <body>
-    <header>
-        <nav class="mainnav">
-            <div class="logo-container">
-                <a href="/index.html"><img src="images\logo.png" alt="Logo" class="logo"></a>
-            </div>
-            <div class="navbar-links">
-                <ul class="sidebar">
-                    <!-- <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li> -->
-                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container"><img src="images/logo.png" alt="TIDA Logo" class="logo"></a>
+            <nav class="mainnav">
+                <ul class="sidebar" id="sidebar">
+                    <li class="close-btn" onclick="hideSidebar()"><a href="#"><i class="fas fa-times"></i></a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="courses.html">Courses</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <ul>
-                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
-                    <li class="hideOnMobile"><a href="services.html">Services</a></li>
-                    <li class="hideOnMobile"><a href="courses.html">Courses</a></li>
-                    <li class="hideOnMobile"><a href="about.html">About Us</a></li>
-                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
-                    <li class="menu-button" onclick=showSidebar() ><a href="#"><svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                <ul class="desktop-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div> 
-        </nav>
+                <button class="menu-button" onclick="showSidebar()"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
     </header>
+
     <main>
         <section class="landing-banner">
             <div class="overlay"></div>
             <div class="banner-content">
-                <h1>Boost Your Business with Effective Facebook Ads</h1>
-                <p>Reach the right audience with tailored advertising strategies. Optimize your campaigns for maximum ROI.</p>
-                <a href="https://wa.me/2349057666827" class="cta">Get Started Now</a>
+                <h1>Boost Your Revenue with Laser-Targeted Facebook Ads</h1>
+                <p>Reach ideal customers, lower acquisition costs, and maximize campaign ROI with proven strategies.</p>
+                <a href="https://wa.me/2349057666827" class="btn btn-secondary" target="_blank">Get Started Now</a>
             </div>
         </section>
+
         <section class="features">
             <h2>Why Choose Our Facebook Ad Services?</h2>
-            <div class="feature">
-                <h3>Targeted Advertising</h3>
-                <p>We analyze your market and create ads that reach your ideal customers.</p>
-            </div>
-            <div class="feature">
-                <h3>Compelling Ad Content</h3>
-                <p>Our team crafts eye-catching ads that drive engagement and conversions.</p>
-            </div>
-            <div class="feature">
-                <h3>Continuous Optimization</h3>
-                <p>We constantly monitor and tweak your campaigns for the best results.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Laser Targeting</h3>
+                    <p>We target buyers based on precise demographics, behaviors, and retargeting signals.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>High-Converting Creatives</h3>
+                    <p>Our copy and graphic designs grab attention and drive strong click-through rates.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Active Optimization</h3>
+                    <p>Continuous split-testing and budget allocation ensure optimum ROAS.</p>
+                </div>
             </div>
         </section>
-         <section class="image-section">
-            <img src="/images/services-1.png" alt="Facebook Ads" class="responsive-image">
+
+        <section class="image-section">
+            <img src="images/services-1.png" alt="Facebook Ads Dashboard" class="responsive-image">
         </section>
+
         <section class="testimonials">
             <h2>What Our Clients Say</h2>
-            <div class="testimonial">
-                <p>"TIDA's Facebook ad services have significantly boosted our online sales. Highly recommended!" - Jane Doe</p>
-            </div>
-            <div class="testimonial">
-                <p>"Their targeted approach helped us reach new customers effectively. Our ROI has never been better." - John Smith</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"TIDA's Facebook ad campaigns boosted our online sales significantly within the first month."</p>
+
+                    <h4>— Jane Doe</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Their retargeting strategy helped us unlock lower cost-per-lead numbers than ever before."</p>
+
+                    <h4>— John Smith</h4>
+                </div>
             </div>
         </section>
+
         <section class="cta-section">
-            <h2>Elevate Your Brand with Targeted Facebook Ad Campaigns</h2>
-            <a href="https://wa.me/2349057666827" class="cta">Start Your Campaign</a>
-        </section>
-        <br>
-        <section class="cta-section">
+            <div class="cta-overlay"></div>
             <div class="cta-content">
-                <h2>Ready to Amplify Your Business with Facebook Ads?</h2>
-                <p>Get in touch with us today and see how our Facebook Ad strategies can help your business grow.</p>
-                <a href="https://wa.me/2349057666827" class="cta">Get Started</a>
-            </div>
-            <div class="cta-image-container">
-                <img src="/images/img-1.png" alt="Facebook Ads" class="cta-image">
+                <h2>Elevate Your Brand with High-ROAS Facebook Ads</h2>
+                <p>Contact us today and let's structure a winning Facebook campaign for your business.</p>
+                <a href="https://wa.me/2349057666827" class="btn btn-primary" target="_blank">Start Campaign</a>
             </div>
         </section>
     </main>
+
+    <div class="whatsapp-chat">
+        <a href="https://wa.me/2349057666827" target="_blank"><img src="images/whatsapp-icon.png" alt="WhatsApp Chat"></a>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Tonyisdope Digital Agency</p>
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
+        <div class="footer-container">
+            <p>&copy; 2026 Tonyisdope Digital Agency (TIDA). All rights reserved.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/tonyisdope" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/tonyisdope_" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
     </footer>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56WBK74P"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
