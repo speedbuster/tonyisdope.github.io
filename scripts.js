@@ -53,31 +53,3 @@ function startCountdown(duration) {
     const countdownInterval = setInterval(updateTimer, 1000);
 }
 
-// 24 hours = 86400 seconds
-startCountdown(86400);
-
-function enrollInClinic(event) {
-    // 1. Prevents the form from refreshing the page
-    event.preventDefault();
-
-    // 2. Your destination WhatsApp number (country code 234 without +)
-    const phoneNumber = "2349057666827";
-
-    // 3. Extract exact values entered into the input fields
-    const name = document.getElementById("name").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const phone = document.getElementById("phone").value.trim();
-    const business = document.getElementById("business_type").value.trim();
-
-    // 4. Build the structured message
-    const formattedMessage = 
-        `Hello TIDA, I am applying for the *Sales & Marketing Clinic Premium* membership.%0A%0A` +
-        `*Full Name:* ${encodeURIComponent(name)}%0A` +
-        `*Email:* ${encodeURIComponent(email)}%0A` +
-        `*Phone:* ${encodeURIComponent(phone)}%0A` +
-        `*Business Type:* ${encodeURIComponent(business)}`;
-
-    // 5. Open WhatsApp pre-filled with all their responses
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
-    window.open(whatsappUrl, "_blank");
-}
