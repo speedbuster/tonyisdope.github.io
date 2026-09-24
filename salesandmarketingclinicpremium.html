@@ -253,7 +253,7 @@
         <!-- Target Audience Section -->
         <section class="services">
             <div class="section-header">
-                <h2>Is The Sales & Marketing Clinic Right For You?</h2>
+                <h2>Is The Sales & Marketing Clinic Premium Right For You?</h2>
             </div>
             <div class="features-grid">
                 <div class="service-card">
@@ -318,25 +318,26 @@
     </footer>
 
     <script>
-    function enrollInClinic(event) {
-        event.preventDefault();
+function enrollInClinic(event) {
+    event.preventDefault();
 
-        const phoneNumber = "2349057666827";
-        const name = document.getElementById("name").value.trim();
-        const email = document.getElementById("email").value.trim();
-        const phone = document.getElementById("phone").value.trim();
-        const business = document.getElementById("business_type").value.trim();
+    const phoneNumber = "2349057666827";
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const business = document.getElementById("business_type").value.trim();
 
-        const formattedMessage = 
-            `Hello TIDA, I am applying for the *Sales & Marketing Clinic Premium* membership.%0A%0A` +
-            `*Full Name:* ${encodeURIComponent(name)}%0A` +
-            `*Email:* ${encodeURIComponent(email)}%0A` +
-            `*Phone:* ${encodeURIComponent(phone)}%0A` +
-            `*Business Type:* ${encodeURIComponent(business)}`;
+    // Construct the text cleanly using single line breaks encoded as %0A
+    const messageText = `Hello TIDA, I am applying for the *Sales & Marketing Clinic Premium* membership.\n\n` +
+                         `*Full Name:* ${name}\n` +
+                         `*Email:* ${email}\n` +
+                         `*Phone:* ${phone}\n` +
+                         `*Business Type:* ${business}`;
 
-        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
-        window.open(whatsappUrl, "_blank");
-    }
-    </script>
-</body>
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(messageText)}`;
+    
+    // Redirect cleanly
+    window.location.href = whatsappUrl;
+}
+</script>
 </html>
