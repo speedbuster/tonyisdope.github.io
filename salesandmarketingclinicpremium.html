@@ -57,6 +57,58 @@
             height: 100%;
             border: 0;
         }
+
+        /* Testimonials Section Styling */
+        .testimonials-section {
+            padding: 60px 20px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .video-short-container {
+            max-width: 360px;
+            margin: 30px auto;
+            position: relative;
+            padding-bottom: 177.77%; /* 9:16 Aspect Ratio for YouTube Shorts */
+            height: 0;
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            background-color: #000;
+        }
+        .video-short-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 40px auto 0;
+            padding: 0 10px;
+        }
+        .testimonial-card {
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid #eee;
+            transition: transform 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        .testimonial-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* CTA Styling */
         .cta-banner {
             text-align: center;
             margin-top: 30px;
@@ -116,7 +168,7 @@
             </div>
         </section>
 
-        <!-- Short Video Section -->
+        <!-- Short Video Breakdown Section -->
         <section class="video-section">
             <div class="section-header">
                 <h2>Watch This Brief Breakdown</h2>
@@ -139,7 +191,7 @@
             </div>
         </section>
 
-        <!-- What You Get Section -->
+        <!-- Deliverables Section -->
         <section class="features">
             <h2>Core Deliverables Included in Premium</h2>
             <div class="features-grid">
@@ -161,7 +213,44 @@
             </div>
         </section>
 
-        <!-- Who This Is For Section -->
+        <!-- Testimonials & Client Proof Section -->
+        <section class="testimonials-section">
+            <div class="section-header">
+                <h2>Real Results From Real Clients</h2>
+                <p>See what business owners and students say about working with us and implementing our strategies.</p>
+            </div>
+
+            <!-- YouTube Short Video Testimonial -->
+            <div class="video-short-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/dNehc0W8LFY" 
+                    title="Client Video Testimonial" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Image Testimonials Grid -->
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="images/testimony 1.jpeg" alt="Client Testimonial 1" loading="lazy">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimony 2.jpeg" alt="Client Testimonial 2" loading="lazy">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimony 3.jpeg" alt="Client Testimonial 3" loading="lazy">
+                </div>
+            </div>
+
+            <div class="cta-banner" style="margin-top: 40px;">
+                <a href="#join-clinic" class="cta-btn-large">
+                    <i class="fab fa-whatsapp"></i> Join These Successful Business Owners Today
+                </a>
+            </div>
+        </section>
+
+        <!-- Target Audience Section -->
         <section class="services">
             <div class="section-header">
                 <h2>Is The Sales & Marketing Clinic Right For You?</h2>
