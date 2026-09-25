@@ -302,8 +302,43 @@
                 </div>
             </div>
         </section>
-
         <!-- Registration Form Section -->
+        <section class="contact" id="join-clinic" style="padding: 60px 20px;">
+            <div class="section-header">
+                <h2>Secure Your Membership Access</h2>
+                <p>Fill in your details below to begin your onboarding instantly on WhatsApp.</p>
+            </div>
+            <div class="contact-container">
+                <form id="clinicForm" class="contact-form" onsubmit="enrollInClinic(event)">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" required placeholder="Enter your full name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" required placeholder="yourname@example.com">
+
+                    <label for="phone">WhatsApp Phone Number:</label>
+                    <input type="tel" id="phone" required placeholder="e.g. 08012345678">
+
+                    <label for="business_type">Business / Industry Type:</label>
+                    <input type="text" id="business_type" required placeholder="e.g. E-commerce, B2B Consulting, Agency">
+
+                    <label for="membership_plan">Select Membership Duration:</label>
+                    <select id="membership_plan" required style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; background-color: #fff;">
+                        <option value="" disabled selected>-- Choose Your Membership Tier --</option>
+                        <option value="1 Month (₦30,000)">1 Month — ₦30,000</option>
+                        <option value="3 Months (₦75,000)">3 Months — ₦75,000</option>
+                        <option value="6 Months - Best Value (₦130,000)">6 Months — ₦130,000 (Best Value)</option>
+                        <option value="1 Year - Lowest Rate (₦220,000)">1 Year — ₦220,000 (Lowest Rate)</option>
+                    </select>
+
+                    <button type="submit" class="cta-btn-large" style="border: none; cursor: pointer; width: 100%; margin-top: 10px;">
+                        <i class="fab fa-whatsapp"></i> Get Instant WhatsApp Access
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Registration Form Section
         <section class="contact" id="join-clinic" style="padding: 60px 20px;">
             <div class="section-header">
                 <h2>Secure Your Membership Access</h2>
@@ -328,7 +363,7 @@
                     </button>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <div class="whatsapp-chat">
@@ -346,7 +381,7 @@
         </div>
     </footer>
 
-    <script>
+    <!-- <script>
 function enrollInClinic(event) {
     event.preventDefault();
 
@@ -368,5 +403,31 @@ function enrollInClinic(event) {
     // Redirect cleanly
     window.location.href = whatsappUrl;
 }
-</script>
+</script> -->
+
+<script>
+    function enrollInClinic(event) {
+        event.preventDefault();
+
+        const phoneNumber = "2349057666827";
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const business = document.getElementById("business_type").value.trim();
+        const membership = document.getElementById("membership_plan").value;
+
+        // Construct the message string with selected membership plan
+        const messageText = `Hello TIDA, I am applying for the *Sales & Marketing Clinic Premium* membership.\n\n` +
+                             `*Full Name:* ${name}\n` +
+                             `*Email:* ${email}\n` +
+                             `*Phone:* ${phone}\n` +
+                             `*Business Type:* ${business}\n` +
+                             `*Selected Membership:* ${membership}`;
+
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(messageText)}`;
+        
+        // Direct redirection to WhatsApp
+        window.location.href = whatsappUrl;
+    }
+    </script>
 </html>
