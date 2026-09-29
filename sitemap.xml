@@ -4,74 +4,113 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://www.tonyisdope.com.ng/</loc>
-  <lastmod>2025-06-26T18:40:35+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/index.html</loc>
-  <lastmod>2025-06-26T18:40:35+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/services.html</loc>
-  <lastmod>2025-06-26T18:40:35+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/how-to-run-profitable-ads-on-instagram.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/courses.html</loc>
-  <lastmod>2025-06-26T18:40:35+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/about.html</loc>
-  <lastmod>2025-06-26T18:40:36+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/contact.html</loc>
-  <lastmod>2025-06-26T18:40:36+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-studies.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/salesandmarketingclinicpremium.html</loc>
-  <lastmod>2026-09-26T17:00:00+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/facebook-ads-landing-page.html</loc>
-  <lastmod>2025-06-26T18:40:36+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/instagram-ads-landing-page.html</loc>
-  <lastmod>2025-06-26T18:40:36+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/digital-strategy-landing-page.html</loc>
-  <lastmod>2025-06-26T18:40:36+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/landingpagedesign-landing-page.html</loc>
-  <lastmod>2025-06-26T18:40:36+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/google-ads-landing-page.html</loc>
-  <lastmod>2025-06-26T18:40:37+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tonyisdope.com.ng/facebook-ads-mastery.html</loc>
-  <lastmod>2025-06-26T18:40:37+00:00</lastmod>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
+<!-- Case Studies -->
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-study-1.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-study-2.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-study-3.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-study-4.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-study-5.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tonyisdope.com.ng/case-study-6.html</loc>
+  <lastmod>2026-09-29T16:55:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 </urlset>
