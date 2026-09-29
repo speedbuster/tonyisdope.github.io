@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Tonyisdope Digital Agency</title>
+    <title>Contact Us | Port Harcourt Marketing Agency | TIDA Ltd</title>
+    <meta name="description" content="Get in touch with Tonyisdope Digital Agency Limited (TIDA Ltd) in Port Harcourt, Nigeria. Contact us today for custom Facebook, Instagram, and Google ad strategies.">
     <link rel="canonical" href="https://www.tonyisdope.com.ng/contact.html" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -32,7 +33,7 @@
 <body>
     <header class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo-container"><img src="images/logo.png" alt="TIDA Logo" class="logo"></a>
+            <a href="index.html" class="logo-container"><img src="images/logo.png" alt="TIDA Ltd Logo" class="logo"></a>
             <nav class="mainnav">
                 <ul class="sidebar" id="sidebar">
                     <li class="close-btn" onclick="hideSidebar()"><a href="#"><i class="fas fa-times"></i></a></li>
@@ -41,6 +42,7 @@
                     <li><a href="courses.html">Courses</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="case-studies.html" class="active">Case Studies</a></li>
                 </ul>
                 <ul class="desktop-nav">
                     <li><a href="index.html">Home</a></li>
@@ -48,6 +50,7 @@
                     <li><a href="courses.html">Courses</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="case-studies.html" class="active">Case Studies</a></li>
                 </ul>
                 <button class="menu-button" onclick="showSidebar()"><i class="fas fa-bars"></i></button>
             </nav>
@@ -57,6 +60,7 @@
     <main style="padding-top: 100px;">
         <section class="contact">
             <h2>Contact Us</h2>
+            <p style="text-align: center; margin-bottom: 20px;"><strong>Location:</strong> Port Harcourt, Rivers State, Nigeria (Serving Clients Worldwide)</p>
             <div class="contact-container">
                 <form id="contactForm" class="contact-form" onsubmit="sendToWhatsApp(event)">
                     <label for="name">Name:</label>
@@ -80,7 +84,7 @@
 
     <footer>
         <div class="footer-container">
-            <p>&copy; 2026 Tonyisdope Digital Agency (TIDA). All rights reserved.</p>
+            <p>&copy; 2026 Tonyisdope Digital Agency Limited (TIDA Ltd) — Port Harcourt, Rivers State, Nigeria. All rights reserved.</p>
             <div class="social-media">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/tonyisdope" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -99,7 +103,7 @@
         const message = document.getElementById("message").value.trim();
 
         const formattedMessage = 
-            `Hello TIDA, I would like to make an inquiry.%0A%0A` +
+            `Hello TIDA Ltd, I would like to make an inquiry.%0A%0A` +
             `*Name:* ${encodeURIComponent(name)}%0A` +
             `*Email:* ${encodeURIComponent(email)}%0A` +
             `*Message:* ${encodeURIComponent(message)}`;
