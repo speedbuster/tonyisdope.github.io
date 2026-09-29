@@ -1,36 +1,40 @@
-
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
 function showSidebar() {
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex'
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar) sidebar.style.display = 'flex';
 }
 
 function hideSidebar() {
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'none'
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar) sidebar.style.display = 'none';
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Form validation
+    // Form validation (safe guard added for pages without #contactForm)
     const contactForm = document.getElementById('contactForm');
-    contactForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
 
-        if (name && email && message) {
-            alert('Thank you for contacting us!');
-            contactForm.reset();
-        } else {
-            alert('Please fill in all fields.');
-        }
-    });
+            if (name && email && message) {
+                alert('Thank you for contacting us!');
+                contactForm.reset();
+            } else {
+                alert('Please fill in all fields.');
+            }
+        });
+    }
 });
 
 function startCountdown(duration) {
     const timerElement = document.getElementById('time');
+    if (!timerElement) return;
+    
     let timeRemaining = duration;
 
     function updateTimer() {
@@ -52,4 +56,3 @@ function startCountdown(duration) {
     updateTimer();
     const countdownInterval = setInterval(updateTimer, 1000);
 }
-
