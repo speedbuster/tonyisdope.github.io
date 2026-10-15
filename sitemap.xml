@@ -1,168 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://www.tonyisdope.com.ng/</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/index.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/services.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/how-to-run-profitable-ads-on-instagram.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/courses.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/about.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/contact.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-studies.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/salesandmarketingclinicpremium.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/facebook-ads-landing-page.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/instagram-ads-landing-page.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-strategy-landing-page.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/landingpagedesign-landing-page.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/google-ads-landing-page.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/facebook-ads-mastery.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-<!-- Case Studies -->
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-study-1.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-study-2.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-study-3.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-study-4.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-study-5.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/case-study-6.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-<!-- Location Landing Pages -->
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-port-harcourt.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-lagos.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-abuja.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-uyo.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-ibadan.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-usa.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-canada.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-uk.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-ghana.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.tonyisdope.com.ng/digital-marketing-agency-south-africa.html</loc>
-  <lastmod>2026-10-13T03:11:00+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-real-estate-houston-energy-corridor.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-oil-gas-london-consulting.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-fintech-new-york-institutional.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-logistics-vancouver-freight.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-fashion-manchester-streetwear.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-healthcare-toronto-clinics.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-hospitality-johannesburg-safari.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-law-firms-nairobi-corporate.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-schools-dubai-ib.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-b2b-lead-gen-houston-industrial.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-manufacturing-manchester-textiles.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-real-estate-new-york-condos.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-healthcare-dubai-surgery.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-oil-gas-gra-phase-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-cosmetics-toronto-clean.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-edtech-london-exec.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-fintech-johannesburg-credit.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-dental-clinics-vancouver-smiles.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-hospitality-nairobi-retreats.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-cro-dubai-ecommerce.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-private-schools-maitama-diplomatic.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-logistics-trans-amadi-oilfield.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-law-firms-victoria-island-tax.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-fintech-abuja-wuse-govtech.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-hair-lekki-luxury-wigs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-real-estate-peter-odili.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-manufacturing-warri-yards.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-private-schools-gra-port-harcourt-early.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-fashion-enugu-traditional.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-meta-ads-toronto-growth.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-manufacturing-onitsha-hardware.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-hospitality-calabar-carnival.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-healthcare-ikeja-maternity.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-oil-gas-woji-valves.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-fashion-surulere-denim.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-fintech-london-sme.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-hospitality-victoria-island-beach.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-law-firms-asokoro-diplomatic.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-schools-gwarinpa-primary.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-local-seo-manchester-plumbing.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-oil-gas-trans-amadi-piping.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-edtech-toronto-data.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-manufacturing-ikeja-packaging.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-hospitality-dubai-yachts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-cosmetics-wuse-beauty.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-healthcare-houston-imaging.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-private-schools-ikoyi-british.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-dental-clinics-surulere-family.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-fashion-abuja-asokoro.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-cro-london-fintech.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-real-estate-ajah-serviced.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-logistics-onitsha-cargo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-healthcare-enugu-orthopedic.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-manufacturing-aba-aluminum.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-hair-uyo-salons.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-edtech-vancouver-design.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-hospitality-calabar-boutique.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-dental-clinics-peter-odili-implants.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-schools-wuse-secondary.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-b2b-lead-gen-vancouver-cleantech.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-ads-private-schools-trans-amadi-technical.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/google-ppc-law-firms-ikeja-corporate.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/sales-funnel-hospitality-enugu-hillside.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/b2b-lead-gen-fintech-johannesburg-payments.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/ecommerce-scaling-fashion-kano-textiles.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/conversion-rate-optimization-real-estate-houston-luxury.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/meta-capi-setup-healthcare-asokoro-clinics.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/local-seo-dental-clinics-woji-family.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/instagram-tiktok-ads-healthcare-victoria-island-dermatology.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonyisdope.com.ng/agency-white-label-meta-ads-london-b2b.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
