@@ -1,0 +1,8 @@
+# Ignore generated HTML files (except source template)
+*.html
+!template.html
+
+# Ignore node modules or build folders
+/node_modules/
+/dist/
+.wrangler/
