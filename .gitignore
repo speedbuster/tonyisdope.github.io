@@ -1,8 +1,21 @@
-# Ignore generated HTML files (except source template)
-*.html
-!template.html
+# Operating System Junk
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Ignore node modules or build folders
-/node_modules/
-/dist/
-.wrangler/
+# Python / Virtual Environment Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Editor & IDE Settings
+.vscode/
+.idea/
+
+# Node / Package Manager Cache
+node_modules/
+.npm
