@@ -11,7 +11,75 @@ if not os.path.exists(template_path):
 with open(template_path, 'r', encoding='utf-8') as f:
     template = f.read()
 
-# 2. Define 30 Services
+# 2. Define Standalone Landing & Core Pages
+standalone_pages = [
+    {
+        "slug": "facebook-ads-landing-page",
+        "title": "Meta & Facebook Ads Agency | TIDA Ltd",
+        "description": "High-ROI Facebook and Instagram advertising services by TIDA Ltd.",
+        "badge": "Paid Traffic Management",
+        "heading": "Meta & Facebook Ads Management",
+        "subheading": "Hyper-targeted campaigns built to acquire customers and scale revenue predictably.",
+        "target_market": "High-Growth Brands"
+    },
+    {
+        "slug": "google-ads-landing-page",
+        "title": "Google Ads & PPC Management | TIDA Ltd",
+        "description": "Capture high-intent search traffic with expert Google Ads management.",
+        "badge": "PPC Advertising",
+        "heading": "Google Ads & Search PPC Management",
+        "subheading": "Capture ready-to-buy search traffic and scale high-intent customer acquisition.",
+        "target_market": "B2B & Service Brands"
+    },
+    {
+        "slug": "digital-strategy-landing-page",
+        "title": "Sales Funnel Architecture & Digital Strategy | TIDA Ltd",
+        "description": "Custom sales funnel architecture and landing page setups by TIDA Ltd.",
+        "badge": "Conversion Architecture",
+        "heading": "Sales Funnel Setup & Digital Strategy",
+        "subheading": "High-converting sales funnels designed to turn cold clicks into predictable clients.",
+        "target_market": "Enterprise Brands"
+    },
+    {
+        "slug": "digital-marketing-agency-port-harcourt",
+        "title": "Digital Marketing Agency in Port Harcourt | TIDA Ltd",
+        "description": "Top-tier performance marketing and lead generation agency headquartered in Port Harcourt, Nigeria.",
+        "badge": "Port Harcourt Headquarters",
+        "heading": "Digital Marketing Agency in Port Harcourt",
+        "subheading": "Driving explosive growth, customer acquisition, and high-ROI ad funnels for brands in Port Harcourt and across Nigeria.",
+        "target_market": "Port Harcourt & Rivers State"
+    },
+    {
+        "slug": "digital-marketing-agency-lagos",
+        "title": "Digital Marketing Agency in Lagos | TIDA Ltd",
+        "description": "Leading growth marketing and performance agency scaling brands across Lagos, Nigeria.",
+        "badge": "Lagos Hub",
+        "heading": "Digital Marketing Agency in Lagos",
+        "subheading": "Enterprise performance marketing, Meta ads, and custom sales funnels built for scaling Lagos businesses.",
+        "target_market": "Lagos & Victoria Island"
+    }
+]
+
+print("Generating standalone core and landing pages...")
+for page in standalone_pages:
+    try:
+        html_content = template
+        html_content = html_content.replace("{{TITLE}}", page["title"])
+        html_content = html_content.replace("{{DESCRIPTION}}", page["description"])
+        html_content = html_content.replace("{{SLUG}}", page["slug"])
+        html_content = html_content.replace("{{BADGE}}", page["badge"])
+        html_content = html_content.replace("{{HEADING}}", page["heading"])
+        html_content = html_content.replace("{{SUBHEADING}}", page["subheading"])
+        html_content = html_content.replace("{{TARGET_MARKET}}", page["target_market"])
+        html_content = html_content.replace("{{ENCODE_TITLE}}", urllib.parse.quote(page["heading"]))
+
+        filename = f"{page['slug']}.html"
+        with open(filename, 'w', encoding='utf-8') as out:
+            out.write(html_content)
+    except Exception as e:
+        print(f"Error generating landing page {page['slug']}: {e}")
+
+# 3. Define 30 Services
 services = [
     {"name": "Meta Ads Management", "slug": "meta-ads-agency", "heading": "Meta Ads Agency"},
     {"name": "Google PPC Agency", "slug": "google-ppc-agency", "heading": "Google PPC Agency"},
@@ -45,7 +113,7 @@ services = [
     {"name": "Full-Funnel Media Buying", "slug": "full-funnel-media-buying", "heading": "Full-Funnel Media Buying Agency"}
 ]
 
-# 3. Define 20 Industries
+# 4. Define 20 Industries
 industries = [
     {"name": "Luxury Real Estate", "slug": "real-estate", "heading": "Luxury Real Estate & PropTech"},
     {"name": "Upstream Oil & Gas", "slug": "oil-and-gas", "heading": "Upstream Oil & Gas & Energy Services"},
@@ -69,7 +137,7 @@ industries = [
     {"name": "Commercial Aviation & Aerospace", "slug": "aviation", "heading": "Commercial Aviation & Aerospace Services"}
 ]
 
-# 4. Generate Exactly 500 Global Markets Programmatically
+# 5. Define 500 Global Markets Programmatically
 base_cities = [
     ("Port Harcourt", "ph"), ("Lagos", "lagos"), ("Abuja", "abuja"), ("London", "london"), 
     ("New York", "ny"), ("Toronto", "toronto"), ("Dubai", "dubai"), ("Johannesburg", "joburg"),
@@ -91,7 +159,7 @@ for city, slug_prefix in base_cities:
         })
 locations = locations[:500]
 
-print(f"Generating enterprise programmatic matrix: {len(services)} services * {len(locations)} locations * {len(industries)} industries = {len(services)*len(locations)*len(industries):,} pages...")
+print(f"Generating enterprise programmatic matrix: {len(services)} services * {len(locations)} locations * {len(industries)} industries = {len(services)*len(locations)*len(industries):,} programmatic pages...")
 
 pages_data = []
 for s, l, i in itertools.product(services, locations, industries):
@@ -108,9 +176,9 @@ for s, l, i in itertools.product(services, locations, industries):
         "badge": badge, "heading": heading, "subheading": subheading, "target_market": target_market
     })
 
-print(f"Total compiled enterprise pages: {len(pages_data):,}. Writing files to disk...")
+print(f"Total compiled enterprise pages: {len(pages_data):,}. Writing files to disk and generating modular sitemaps...")
 
-# 5. High-Speed Batch File Generation
+# 6. High-Speed Batch File Generation
 success_count = 0
 for page in pages_data:
     try:
@@ -131,13 +199,12 @@ for page in pages_data:
     except Exception as e:
         print(f"Error generating {page['slug']}: {e}")
 
-# 6. Generate Dedicated Core & Landing Pages Sitemap
+# 7. Generate Core Sitemap
 domain = "https://www.tonyisdope.com.ng"
-sitemap_files = [] # <--- Added initialization here so it won't crash
+sitemap_files = []
 
-# Automatically scan directory for core static/landing HTML files (excluding programmatic slugs)
 static_html_files = [f[:-5] for f in os.listdir('.') if f.endswith('.html') and f != 'template.html']
-core_pages = [f for f in static_html_files if len(f.split('-')) <= 3 or f in ['index', 'about', 'contact', 'blog', 'services', 'courses', 'salesandmarketingclinicpremium'] or f.startswith('case-study-') or f.endswith('landing-page')]
+core_pages = [f for f in static_html_files if len(f.split('-')) <= 3 or f in ['index', 'about', 'contact', 'blog', 'services', 'courses'] or f.startswith('case-study-') or f.endswith('landing-page')]
 
 if core_pages:
     core_sm_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -148,10 +215,25 @@ if core_pages:
     
     with open('sitemap-core.xml', 'w', encoding='utf-8') as csm:
         csm.write(core_sm_content)
-    sitemap_files.insert(0, 'sitemap-core.xml')
-    print(f"Successfully generated sitemap-core.xml with {len(core_pages)} core agency and landing pages (Priority 1.0)!")
+    sitemap_files.append('sitemap-core.xml')
 
-# 7. Generate Master Sitemap Index
+# 8. Chunk Programmatic Pages into 50k Sitemaps (e.g., sitemap-pages-1.xml, sitemap-pages-2.xml, etc.)
+chunk_size = 50000
+for i in range(0, len(pages_data), chunk_size):
+    chunk = pages_data[i:i + chunk_size]
+    sitemap_filename = f"sitemap-pages-{i // chunk_size + 1}.xml"
+    
+    sm_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sm_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for page in chunk:
+        sm_content += f"  <url>\n    <loc>{domain}/{page['slug']}.html</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>\n"
+    sm_content += '</urlset>'
+    
+    with open(sitemap_filename, 'w', encoding='utf-8') as sf:
+        sf.write(sm_content)
+    sitemap_files.append(sitemap_filename)
+
+# 9. Generate Master Sitemap Index
 index_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
 index_content += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 for sf in sitemap_files:
@@ -161,5 +243,5 @@ index_content += '</sitemapindex>'
 with open('sitemap.xml', 'w', encoding='utf-8') as idx:
     idx.write(index_content)
 
-print(f"Master sitemap.xml index updated with all modular sitemaps!")
-print(f"Successfully generated {success_count:,} enterprise HTML pages!")
+print(f"Master sitemap.xml index successfully generated with {len(sitemap_files)} sitemap partitions!")
+print(f"Successfully built {success_count:,} enterprise programmatic HTML files and all sitemaps!")
