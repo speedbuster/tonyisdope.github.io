@@ -406,10 +406,14 @@ function enrollInClinic(event) {
     window.location.href = whatsappUrl;
 }
 </script> -->
-
 <script>
     function enrollInClinic(event) {
         event.preventDefault();
+
+        // 1. Fire OpenAI Pixel Conversion Event for ChatGPT Ads
+        if (typeof oaiq === "function") {
+            oaiq("measure", "order_created", { type: "contents" });
+        }
 
         const phoneNumber = "2349057666827";
         const name = document.getElementById("name").value.trim();
@@ -427,9 +431,10 @@ function enrollInClinic(event) {
                              `*Selected Membership:* ${membership}`;
 
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(messageText)}`;
-        
-        // Direct redirection to WhatsApp
-        window.location.href = whatsappUrl;
+
+        // 2. Delay redirect by 300ms so the pixel event registers before navigating away
+        setTimeout(function() {
+            window.location.href = whatsappUrl;
+        }, 300);
     }
-    </script>
-</html>
+</script>
